@@ -18,7 +18,7 @@ password = str(input('Password: '))
 to_details = str(input('Send Email To: ')).split(',')
 subject = str(input('Subject: '))
 base_message = str(input('Body in HTML:'))
-attachment = str(input('Provide file name to be attached in the mail:')).split(',')
+attachment = str(input('Provide file name to be attached in the mail: ')).split(',')
 
 def send_email(user, password, to, subject, body, files):
     try:
